@@ -1,0 +1,843 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Primary Meta Tags -->
+    <title>Porfolio de Christian Tapia - Diseñador Grafico, Desarrollador y Programador Web</title>
+    <meta name="author" content="Christian Tapia - ComikSama">
+    <meta name="description" content="Contrata a Christian Tapia para crear tu Pagina Web. Diseñador Gráfico, Desarrollador Web y Creador de Contenido. Especializado en el desarrollo de páginas web ideales para tu negocio..">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Frontend, Frontend Developer, Web Developer">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://comiksama.github.io/porfolio/v1/index.html" />
+    <meta property="og:title" content="Porfolio de Christian Tapia - Diseñador Grafico, Desarrollador y Programador Web" />
+    <meta property="og:description" content="Contrata a Christian Tapia para crear tu Pagina Web. Diseñador Gráfico, Desarrollador Web y Creador de Contenido. Especializado en el desarrollo de páginas web ideales para tu negocio.." />
+    <meta property="og:image" content="img/img-001.jpg"/>
+    <!-- Final Meta Tags -->
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  </head>
+  <body class="" >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid ">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tecnologias">Tecnologías</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CV_CHRISTIAN_TAPIA_ARAYA_2024.pdf" target="_blank">CV</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container px-5 bg-white-sp py-5">
+      <button id="scrollToTopBtn"  type="button" class="btn btn-outline-success position-fixed bottom-0 end-0 m-3 " title="Go to top">
+        <i class="fa-solid fa-circle-up d-none d-sm-block"> Subir</i>
+        <i class="fa-solid fa-circle-up d-sm-none"></i>
+      </button>
+      
+      <section class="my-5 col-12 col-sm-8">
+        <div class="d-flex align-items-center mb-3">
+            <!-- Versión móvil -->
+            <img src="img/perfil.jpg" alt="Christian Tapia - ComikSama" class="img-fluid rounded-circle border border-success shadow-sm d-block d-md-none" style="width: 30%;">
+            <!-- Versión de escritorio -->
+            <img src="img/perfil.jpg" alt="Christian Tapia - ComikSama" class="img-fluid rounded-circle border border-success shadow-sm d-none d-md-block" style="width: 10%;">
+            <p class="ms-4 p-2 text-success border border-success border-3 rounded-4 fw-bold disponible" style="background-color: var(--bs-success-bg-subtle)">Disponible para trabajar</p>
+        </div>
+        <h1 class="txt-titulo">Hola, Soy Christian</h1>
+        <p class="txt-parrafo fw-bold text-success">Diseñador Web y Desarrollador Front-End</p>
+        <p class="txt-parrafo mt-4"><strong>Diseñador Gráfico, Estudiante de Ingenieria en Informatica y Creador de Contenido sobre Papercraft</strong> en La Serena, Chile cl. Especializado en el desarrollo de páginas web ideales para tu negocio.</p>      
+      <div class="d-grid gap-2 d-md-block">
+        <button type="button" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-regular fa-envelope me-md-2"></i>
+          <span class="text-end">Contáctame</span> 
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="mailto:christian.tapia.disenoyweb@gmail.com">Escribeme!!<i class="fa-solid fa-pen-to-square ms-5"></i></a></li>
+          <li>
+              <div class="dropdown-item" onclick="copyToClipboard('christian.tapia.disenoyweb@gmail.com')">
+                  <strong>Christian.tapia.disenoyweb@gmail.com</strong>
+                  <i class="fa-regular fa-clipboard ms-2"></i>
+              </div>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-solid fa-phone me-2"></i>
+          <span>Llamame</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <li><a class="dropdown-item" href="tel:+56922084711">Llamame!! <i class="fa-solid fa-phone ms-5"></i></a></li>
+              <div class="dropdown-item" onclick="copyToPhoneClipboard('+56922084711')">
+                  <img src="img/bandera-cl.svg" alt="bandera chile" style="width: 5%;" class="me-2 border border-black rounded-5">
+                  <strong>+56 9 2208 4711</strong>
+                  <i class="fa-regular fa-clipboard ms-2"></i>
+              </div>
+          </li>
+        </ul>
+        <a class="btn btn-outline-success" href="https://www.linkedin.com/in/christian-tapia-araya/" target="_blank">
+          <i class="fa-brands fa-linkedin me-2"></i>
+          <span>LinkedIn</span> 
+        </a>
+        <a class="btn btn-outline-success" href="https://github.com/ComikSama" target="_blank">
+          <i class="fa-brands fa-github me-2"></i>
+          <span>GitHub</span> 
+        </a>
+        <a class="btn btn-outline-success" href="CV_CHRISTIAN_TAPIA_ARAYA_2024.pdf" target="_blank">
+          <i class="fa-solid fa-file-pdf me-2"></i><span>Descargar CV</span> 
+        </a>
+      </div>
+    </section>
+    <section class="my-5 pt-5" id="proyectos">
+      <p class="txt-titulo-2"><i class="fa-solid fa-laptop-code me-2"></i> Proyectos y Trabajos</p>
+      <div class="row justify-content-around my-4">
+        <button type="button" class="col-12 col-md-4 btn btn-success txt-parrafo" id="web-btn">Diseño y Programación Web</button>
+        <button type="button" class="col-12 col-md-4 btn btn-outline-success txt-parrafo mt-3 mt-md-0" id="diseno-btn">Diseño Gráfico</button>  
+      </div>
+      <div id="web-section" class="section-content">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-5">
+            <img src="img/proyectos/004.webp" class="img-fluid rounded-2" alt="img-arancio">
+          </div>
+          <div class="col-lg-7 ">
+            <p class="txt-titulo-3 mt-3 mt-lg-0 pt-0 text-center text-lg-start">Rediseño Web - WSAM</p>
+            <div class="row align-items-center text-center justify-content-center justify-content-lg-start gx-2 gy-2" id="logos">
+              <div class="col-5 col-sm-3 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-html5 me-1" style="color: #ff0000;"></i>
+                  <span class="txt-icon">HTML5</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-css3-alt pe-1" style="color: #004bcc;"></i>
+                  <span class="txt-icon">CSS3</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-js me-1" style="color: #FFD43B;"></i>
+                  <span class="txt-icon">JavaScript</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-php me-1"></i>
+                  <span class="txt-icon">PHP</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-solid fa-database me-1"></i>
+                  <span class="txt-icon">MySql</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-bootstrap me-1" style="color: #7e5ce6;"></i>
+                  <span class="txt-icon">Bootstrap</span>
+              </div>
+            </div>
+            <p class="txt-parrafo-1 mt-4">Rediseño el sitio web de WSAM, reemplazando su antigua versión en WordPress por una página desarrollada desde cero (Código). Este cambio permitió una mejora notable en SEO, un incremento significativo en la velocidad de carga y una experiencia de usuario mucho más fluida y moderna. La nueva estructura presenta una interfaz optimizada, adaptable a todos los dispositivos y centrada en resaltar los eventos y servicios de la organización con un diseño visualmente atractivo y profesional.</p>
+            <div class="d-flex txt-cod justify-content-center justify-content-lg-start">
+              <!-- <div class="bg-black  py-3 px-4 rounded-4 fw-bold">
+                <a href="" class="text-decoration-none text-white" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+              </div> -->
+              <div class="bg-black py-3 px-4 rounded-4 fw-bold">
+                <a href="https://www.wsam.cl" class="text-decoration-none text-white" target="_blank">
+                  <i class="fa-solid fa-link"></i></i>
+                  <span>Ver Página</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center mt-5">
+          <div class="col-lg-5">
+            <img src="img/proyectos/005.webp" class="img-fluid rounded-2" alt="img-arancio">
+          </div>
+          <div class="col-lg-7 ">
+            <p class="txt-titulo-3 mt-3 mt-lg-0 pt-0 text-center text-lg-start">Sitio Web - LsWeb</p>
+            <div class="row align-items-center text-center justify-content-center justify-content-lg-start gx-2 gy-2" id="logos">
+              <div class="col-5 col-sm-3 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-html5 me-1" style="color: #ff0000;"></i>
+                  <span class="txt-icon">HTML5</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-css3-alt pe-1" style="color: #004bcc;"></i>
+                  <span class="txt-icon">CSS3</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-js me-1" style="color: #FFD43B;"></i>
+                  <span class="txt-icon">JavaScript</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-php me-1"></i>
+                  <span class="txt-icon">PHP</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-solid fa-database me-1"></i>
+                  <span class="txt-icon">MySql</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-bootstrap me-1" style="color: #7e5ce6;"></i>
+                  <span class="txt-icon">Bootstrap</span>
+              </div>
+            </div>
+            <p class="txt-parrafo-1 mt-4">LSWeb.cl es mi proyecto personal y pyme dedicada al diseño y desarrollo de sitios web profesionales en Chile. Diseñé y desarrollé este sitio con un enfoque en rendimiento, experiencia de usuario y adaptabilidad total para todo tipo de dispositivos.<br>Combina una estética moderna y funcional con una estructura optimizada para SEO, logrando tiempos de carga rápidos y una navegación intuitiva orientada a la conversión.<br>LSWeb representa mi visión de crear soluciones digitales que conecten marcas con personas, entregando presencia online profesional, clara y efectiva.</p>
+            <div class="d-flex txt-cod justify-content-center justify-content-lg-start">
+              <!-- <div class="bg-black  py-3 px-4 rounded-4 fw-bold">
+                <a href="" class="text-decoration-none text-white" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+              </div> -->
+              <div class="bg-black py-3 px-4 rounded-4 fw-bold">
+                <a href="https://www.lsweb.cl" class="text-decoration-none text-white" target="_blank">
+                  <i class="fa-solid fa-link"></i></i>
+                  <span>Ver Página</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center mt-5">
+          <div class="col-lg-5">
+            <img src="img/proyectos/001.webp" class="img-fluid rounded-2" alt="img-arancio">
+          </div>
+          <div class="col-lg-7 ">
+            <p class="txt-titulo-3 mt-3 mt-lg-0 pt-0 text-center text-lg-start">Sitio Web - Arancio Publicidad</p>
+            <div class="row align-items-center text-center justify-content-center justify-content-lg-start gx-2 gy-2" id="logos">
+              <div class="col-5 col-sm-3 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-html5 me-1" style="color: #ff0000;"></i>
+                  <span class="txt-icon">HTML5</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-css3-alt pe-1" style="color: #004bcc;"></i>
+                  <span class="txt-icon">CSS3</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-js me-1" style="color: #FFD43B;"></i>
+                  <span class="txt-icon">JavaScript</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-php me-1"></i>
+                  <span class="txt-icon">PHP</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-solid fa-database me-1"></i>
+                  <span class="txt-icon">MySql</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-bootstrap me-1" style="color: #7e5ce6;"></i>
+                  <span class="txt-icon">Bootstrap</span>
+              </div>
+            </div>
+            <p class="txt-parrafo-1 mt-4">Sitio Web principal creada para la Agencia Publicitaria <strong>Arancio Publicidad</strong>, en donde da a conocer sus productos, con galería de fotos y lista de productos dando la opción de hacer cotizaciones.</p>
+            <div class="d-flex txt-cod justify-content-center justify-content-lg-start">
+              <!-- <div class="bg-black  py-3 px-4 rounded-4 fw-bold">
+                <a href="" class="text-decoration-none text-white" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+              </div> -->
+              <div class="bg-black py-3 px-4 rounded-4 fw-bold">
+                <a href="https://www.aranciopublicidad.cl" class="text-decoration-none text-white" target="_blank">
+                  <i class="fa-solid fa-link"></i></i>
+                  <span>Ver Página</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center mt-5">
+          <div class="col-lg-5">
+            <img src="img/proyectos/002.webp" class="img-fluid rounded-2" alt="img-arancio">
+          </div>
+          <div class="col-lg-7 ">
+            <p class="txt-titulo-3 mt-3 mt-lg-0 pt-0 text-center text-lg-start">Sitio Web - Arancio Publicidad / CotizaFacil</p>
+            <div class="row align-items-center text-center justify-content-center justify-content-lg-start gx-2 gy-2" id="logos">
+              <div class="col-5 col-sm-3 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-html5 me-1" style="color: #ff0000;"></i>
+                  <span class="txt-icon">HTML5</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-css3-alt pe-1" style="color: #004bcc;"></i>
+                  <span class="txt-icon">CSS3</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-js me-1" style="color: #FFD43B;"></i>
+                  <span class="txt-icon">JavaScript</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-php me-1"></i>
+                  <span class="txt-icon">PHP</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-solid fa-database me-1"></i>
+                  <span class="txt-icon">MySql</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-bootstrap me-1" style="color: #7e5ce6;"></i>
+                  <span class="txt-icon">Bootstrap</span>
+              </div>
+            </div>
+            <p class="txt-parrafo-1 mt-4">Sitio Web de cotizaciones para la Agencia Publicitaria <strong>Arancio Publicidad</strong>, siendo dinámica al seleccionar la cantidad de productos y materialidad, dando en tiempo real el precio total de los productos seleccionados.</p>
+            <div class="d-flex txt-cod justify-content-center justify-content-lg-start">
+              <!-- <div class="bg-black  py-3 px-4 rounded-4 fw-bold">
+                <a href="" class="text-decoration-none text-white" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+              </div> -->
+              <div class="bg-black py-3 px-4 rounded-4 fw-bold">
+                <a href="https://www.aranciopublicidad.cl/cotizafacil/" class="text-decoration-none text-white" target="_blank">
+                  <i class="fa-solid fa-link"></i></i>
+                  <span>Ver Página</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center mt-5">
+          <div class="col-lg-5">
+            <img src="img/proyectos/003.webp" class="img-fluid rounded-2" alt="img-arancio">
+          </div>
+          <div class="col-lg-7 ">
+            <p class="txt-titulo-3 mt-3 mt-lg-0 pt-0 text-center text-lg-start">Sitio Web - SIM / Soluciones Integrales de Mantenimiento</p>
+            <div class="row align-items-center text-center justify-content-center justify-content-lg-start gx-2 gy-2" id="logos">
+              <div class="col-5 col-sm-3 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-html5 me-1" style="color: #ff0000;"></i>
+                  <span class="txt-icon">HTML5</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-css3-alt pe-1" style="color: #004bcc;"></i>
+                  <span class="txt-icon">CSS3</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-js me-1" style="color: #FFD43B;"></i>
+                  <span class="txt-icon">JavaScript</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-php me-1"></i>
+                  <span class="txt-icon">PHP</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-solid fa-database me-1"></i>
+                  <span class="txt-icon">MySql</span>
+              </div>
+              <div class="col-5 col-sm-3 ms-sm-1 bg-black text-white py-1 px-2 mx-1 rounded-5 fw-bold">
+                  <i class="fa-brands fa-bootstrap me-1" style="color: #7e5ce6;"></i>
+                  <span class="txt-icon">Bootstrap</span>
+              </div>
+            </div>
+            <p class="txt-parrafo-1 mt-4">Landing Page echa para empresa local, con galeria de fotos, Api de Google Maps y formulario de contacto.</p>
+            <div class="d-flex txt-cod justify-content-center justify-content-lg-start">
+              <!-- <div class="bg-black  py-3 px-4 rounded-4 fw-bold">
+                <a href="" class="text-decoration-none text-white" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+              </div> -->
+              <div class="bg-black py-3 px-4 rounded-4 fw-bold">
+                <a href="https://mantencionessim.cl/" class="text-decoration-none text-white" target="_blank">
+                  <i class="fa-solid fa-link"></i></i>
+                  <span>Ver Página</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>   
+      </div>
+      <!-- SECCION DISEÑO -->
+      <div id="diseno-section" class="section-content d-none">
+        <p class="txt-titulo-2"><i class="fa-solid fa-icons"></i> Logos</p>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/001.jpg" alt="logo-angelos-pizza" class="m-2 p-2 border border-2 rounded-5">
+              <div class="card-body text-center bg-black text-white">
+                <h5 class="card-title fw-bold">Angelo´s Pizza</h5>
+                <p class="card-text pb-md-4">Logo principal de Pizzeria local.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/002.jpg" alt="logo-ovallekon" class="m-2 p-2 border border-2 rounded-5">
+              <div class="card-body text-center bg-black text-white">
+                <h5 class="card-title fw-bold">Ovalle-kon</h5>
+                <p class="card-text">Logo para evento en la Ciudad de Ovalle.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/003.jpg" alt="logo-belmariofmtv" class="m-2 p-2 border border-2 rounded-5">
+              <div class="card-body text-center bg-black text-white">
+                <h5 class="card-title fw-bold">Belmario FMTV Online</h5>
+                <p class="card-text pb-md-4">Logo para canal de Twitch.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/004.jpg" alt="logo-belmariofmtv" class="m-2 p-2 border border-2 rounded-5">
+              <div class="card-body text-center bg-black text-white">
+                <h5 class="card-title fw-bold">Centro Terapeutico Kurumi</h5>
+                <p class="card-text">Logo para Centro Terapeutico en la Región de Coquimbo.</p>
+              </div>
+            </div>
+          </div>          
+        </div>
+        <p class="txt-titulo-2 mt-4"><i class="fa-solid fa-object-group"></i> Diseño de Local e Implementación de Local</p>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/005.jpg" alt="diseño-adh-mural" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/006.jpg" alt="diseño-señaletica" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/007.jpg" alt="adh-ventanas" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/008.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/009.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/010.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/011.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/012.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/013.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/014.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/015.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/016.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/017.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/018.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/019.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/020.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/021.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/022.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/023.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/024.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div>  
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/025.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/026.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/027.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card">
+              <img src="img/diseno/028.jpg" alt="empavonado-calado" class="m-2 p-2 border border-2 rounded-5">
+            </div>
+          </div> 
+
+
+
+
+        </div>
+      </div>
+    </section>
+    <section class="my-5 pt-5" id="tecnologias">
+      <p class="txt-titulo-2"><i class="fa-solid fa-network-wired"></i> Tecnologías y Diseño</p>
+      <div class="row text-center txt-parrafo d-flex justify-content-center">
+        <div class="col-5 col-md-3 col-lg-2 border border-3 border-black rounded-3 ms-3  mt-3">
+          <i class="fa-brands fa-html5 mt-3" style="color: #ff0000; font-size: 50px;"></i>
+          <p>HTML 5</p>
+        </div>
+        <div class="col-5 col-md-3 col-lg-2 border border-3 border-black rounded-3 ms-3 mt-3">
+          <i class="fa-brands fa-css3-alt mt-3" style="color: #004bcc; font-size: 50px;"></i>
+          <p>CSS 3</p>
+        </div>
+        <div class="col-5 col-md-3 col-lg-2 border border-3 border-black rounded-3 ms-3 mt-3">
+          <i class="fa-brands fa-js mt-3" style="color: #FFD43B; font-size: 50px;"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="col-5 col-md-3 col-lg-2 border border-3 border-black rounded-3 ms-3 mt-3">
+          <i class="fa-brands fa-php mt-3" style="color: #43307e; font-size: 50px;"></i>
+          <p>PHP</p>
+        </div>
+        <div class="col-5 col-md-3 col-lg-2 border border-3 border-black rounded-3 ms-3 mt-3">
+          <img src="img/logo_mysql.svg" class="mt-3 icon">
+          <p>MySql</p>
+        </div>
+        <div class="col-5 col-md-3 col-lg-2 border border-3 border-black rounded-3 ms-3 mt-3">
+          <i class="fa-brands fa-bootstrap mt-3" style="color: #7e5ce6; font-size: 50px;"></i>
+          <p>Bootstrap</p>
+        </div>
+        <div class="col-5 col-md-3 col-lg-2 border border-3 border-black rounded-3 ms-3 mt-3">
+          <img src="img/logo_ps.svg" class="mt-3 icon">
+          <p>Adobe Photoshop</p>
+        </div>
+        <div class="col-5 col-md-3 col-lg-2 border border-3 border-black rounded-3 ms-3 mt-3">
+          <img src="img/logo_ai.svg" class="mt-3 icon">
+          <p>Adobe Illustrator</p>
+        </div>
+        <div class="col-5 col-md-3 col-lg-2 border border-3 border-black rounded-3 ms-3 mt-3">
+          <img src="img/logo_indesign.svg" class="mt-3 icon">
+          <p>Adobe Indesign</p>
+        </div>
+        <div class="col-5 col-md-3 col-lg-2 border border-3 border-black rounded-3 ms-3 mt-3">
+          <img src="img/logo_premiere.svg" class="mt-3 icon">
+          <p>Adobe Premiere</p>
+        </div>
+      </div>
+    </section>
+    <section class="my-5 pt-5" id="experiencia">
+      <div class="d-flex align-items-center justify-content-between">
+          <p class="txt-titulo-2"><i class="fa-solid fa-briefcase me-2"></i> Experiencia Laboral</p>
+          <button type="button" class="btn btn-outline-success txt-parrafo" id="toggleExperiencia">Mostrar</button>
+      </div>
+      <ul class="linea-vertical d-none" id="listaExperiencia">
+        <li class="pb-4">
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <p class="my-0 py-0 txt-parrafo text-success fw-bold" id="titulo-1">Diseñador Gráfico y Desarrollador Web</p>
+              <p class="fw-bold txt-parrafo-2">Hermes Graphics - La Serena</p>
+              <p class="txt-parrafo-3">2024 - Actualidad</p>
+            </div>
+            <div class="col-12 col-sm-8 txt-parrafo-1">
+              <p class="mb-0">Diseño de marca y Producción para empresas de alto valor, en las que destacan:</p>
+              <div class="lista-puntos-alt mb-0">
+                <p><span></span>Savory</p>
+                <p><span></span>Nestlé</p>
+                <p><span></span>CCU</p>
+                <p><span></span>Pepsi</p>
+                <p><span></span>Purina</p>
+              </div>
+              <div class="lista-puntos-alt mb-0">
+            </div>
+          </div>
+        </li>
+        <li class="pb-4">
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <p class="my-0 py-0 txt-parrafo text-success fw-bold" id="titulo-1">Diseñador Gráfico y Front-End Dev</p>
+              <p class="fw-bold txt-parrafo-2">Arancio Publicidad - La Serena</p>
+              <p class="txt-parrafo-3">2022 - 2024</p>
+            </div>
+            <div class="col-12 col-sm-8 txt-parrafo-1">
+              <p class="mb-0">Diseño de marca y Producción para empresas locales y nacionales.</p>
+              <p class="mt-0">Diseño web y Programación para empresas y pymes locales.</p>
+            </div>
+          </div>
+        </li>
+        <li class="pb-4">
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <p class="my-0 py-0 txt-parrafo text-success fw-bold" id="titulo-2">Diseño y Producción Gráfica</p>
+              <p class="fw-bold txt-parrafo-2">GráficaG - La Serena</p>
+              <p class="txt-parrafo-3">2018 - 2022</p>
+            </div>
+            <div class="col-12 col-sm-8 txt-parrafo-1" >
+              <p class="fw-bold mb-0">Diseño</p>
+              <p class="mb-0 ms-3">Imange de Marca.</p>
+              <p class="mt-0 mb-0 ms-3">Logotipos e Isotipos de Micro y Mediana Empresa.</p>
+              <p class="mt-0 mb-0 ms-3">Desarrollo, Diseño e Impresión de Gigantografias.</p>
+              <p class="mt-0 mb-0 ms-3">Vectorización de Logotipos.</p>
+              <p class="mt-0 ms-3">Diseño de Flayer y Tarjetas de Presentación.</p>
+              <p class="fw-bold mb-0">Post-Producción</p>
+              <p class="mb-0 ms-3">Sellado de Telas con calor y pegamento.</p>
+              <p class="mt-0 mb-0 ms-3">Diseño y Armado de Posteras y Palomas Publicitarias en Bastidores de Madera.</p>
+              <p class="mt-0 mb-0 ms-3">Diseño y Armado de Señaleticas en Cintra, Acrílico y Lata Galvanizada.</p>
+              <p class="mt-0 mb-0 ms-3">Armado de Logotipos Volumetricos en Acrílico con o sin luz led interna.</p>
+              <p class="mt-0 mb-0 ms-3">Instalación de Adhesivos de Muralla y Vehicular.</p>
+              <p class="mt-0 mb-0 ms-3">Instalación de WindowsVision.</p>
+            </div>
+          </div>
+          </div>
+        </li>
+    </ul>
+    </section>
+    <section class="my-5 pt-5" id="sobre-mi">
+      <p class="txt-titulo-2"><i class="fa-solid fa-user-tag me-2"></i> Sobre mí</p>
+      <div class="row">
+        <div class="col-md-8 txt-parrafo-4">
+          <p>Me llamo Christian Tapia pero desde el colegio me llaman Comik. Empecé con la curiosidad en la computación desde inclusive antes de tener mi primer PC, siendo las primeras interaciones en esté mundo con el PC de una tia secretaria.</p>
+          <p>Con mi primer PC los CD's de <strong class="text-success">La maquina de hacer Tareas</strong> y <strong class="text-success">Encarta</strong> avivaron mi curiosidad y mis ganas de apreder, pero tambien crear cosas para ayudar a los demas.</p>
+          <p>Ya con los años descubri mis verdaderas profesiones y pasiones, estando el Diseño Gráfico, siendo una gran influenciencia mi Madre la cual desde que tengo razón me llevaba con ella a comprar telas, ya que es <strong class="text-success">Decoradora de Interiores</strong>, y me enseño el arte de que cosas inertes podrian crear cosas hermosas.</p>
+          <p>Con los años el diseño fue parte de mi vida pero tambien inconcientemente la <strong class="text-success">Programación</strong> y al momento de formarme como Diseñador Gráfico conoci el Mundo de la Programación, en especial el Front-End, y desde esos años e convinado las dos visiones para tambien crear cosas hermosas.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="custom-border">
+            <img src="img/perfil-original.jpg" alt="img-perfil" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="container my-5 col-md-8" id="contacto">
+      <h2 class="text-center mb-4 txt-titulo-2">Contáctame y juntos haremos realidad tu próximo proyecto.</h2>
+      <form id="contactForm" action="https://formspree.io/f/mkndlvly" method="POST" class="needs-validation" novalidate>
+        <div class="mb-3 txt-parrafo-4">
+          <label for="name" class="form-label">Nombre:</label>
+          <input type="text" id="name" name="name" class="form-control" required>
+          <div class="invalid-feedback"><p>Por favor, ingresa tu nombre.</p></div>
+        </div>
+        <div class="mb-3 txt-parrafo-4">
+          <label for="email" class="form-label">Correo electrónico:</label>
+          <input type="email" id="email" name="email" class="form-control" required>
+          <div class="invalid-feedback"><p>Por favor, ingresa un correo electrónico válido.</p></div>
+        </div>
+        <div class="mb-3 txt-parrafo-4">
+          <label for="message" class="form-label">Mensaje:</label>
+          <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+          <div class="invalid-feedback"><p>Por favor, ingresa tu mensaje.</p></div>
+        </div>
+        <div class="d-grid col-md-6 mx-auto">
+          <button type="submit" class="btn btn-outline-success">Enviar</button>
+        </div>
+      </form>
+    </section>    
+    </main>
+    <div class="bg-body-tertiary">
+      <div class="container">
+        <footer class="py-3">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#proyectos" class="nav-link px-2 text-body-secondary">Proyectos</a></li>
+            <li class="nav-item"><a href="#tecnologias" class="nav-link px-2 text-body-secondary">Tecnologías</a></li>
+            <li class="nav-item"><a href="#experiencia" class="nav-link px-2 text-body-secondary">Experiencia</a></li>
+            <li class="nav-item"><a href="#sobre-mi" class="nav-link px-2 text-body-secondary">Sobre Mí</a></li>
+            <li class="nav-item"><a href="#contacto" class="nav-link px-2 text-body-secondary">Contacto</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">© <span id="currentYear"></span> <a href="https://www.linkedin.com/in/christian-tapia-araya/" class="text-decoration-none text-body-secondary">ComikSama.</a> Todos los derechos reservados.</p>
+        </footer>
+      </div>  
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    
+        function activateNavLink() {
+          let index = sections.length;
+    
+          while (--index && window.scrollY + 0 < sections[index].offsetTop) {}
+    
+          navLinks.forEach((link) => link.classList.remove('active'));
+          navLinks.forEach((link) => link.classList.remove('fw-bold'));
+          if (index >= 0) {
+            navLinks[index].classList.add('active');
+            navLinks[index].classList.add('fw-bold');
+          }
+        }
+    
+        activateNavLink();
+        window.addEventListener('scroll', activateNavLink);
+      });
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          const toggleButton = document.getElementById('toggleExperiencia');
+          const listaExperiencia = document.getElementById('listaExperiencia');
+  
+          toggleButton.addEventListener('click', function() {
+              listaExperiencia.classList.toggle('d-none');
+              if (listaExperiencia.classList.contains('d-none')) {
+                  toggleButton.textContent = 'Mostrar';
+              } else {
+                  toggleButton.textContent = 'Ocultar';
+              }
+          });
+      });
+    </script>
+
+    <!-- Botón de Subir -->
+    <script>
+      // Obtener el botón
+      let scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    
+      // Cuando el usuario se desplaza hacia abajo 20px desde la parte superior del documento, mostrar el botón
+      window.onscroll = function() {scrollFunction()};
+    
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          scrollToTopBtn.style.display = "block";
+        } else {
+          scrollToTopBtn.style.display = "none";
+        }
+      }
+    
+      // Cuando el usuario hace clic en el botón, desplazarse hacia la parte superior del documento
+      scrollToTopBtn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    </script>
+    
+    <script>
+      //Copia de correo en el portapapeles
+      function copyToClipboard(text) {
+          var tempInput = document.createElement("input");
+          tempInput.value = text;
+          document.body.appendChild(tempInput);
+          tempInput.select();
+          document.execCommand("copy");
+          document.body.removeChild(tempInput);
+          alert("El correo electrónico se ha copiado al portapapeles: " + text);
+      }
+      //Copia del telefono en el portapapeles
+      function copyToPhoneClipboard(text) {
+          var tempInput = document.createElement("input");
+          tempInput.value = text;
+          document.body.appendChild(tempInput);
+          tempInput.select();
+          document.execCommand("copy");
+          document.body.removeChild(tempInput);
+          alert("El Télefono se ha copiado al portapapeles: " + text);
+      }
+      // Sección Proyectos
+      document.addEventListener('DOMContentLoaded', function() {
+        const webBtn = document.getElementById('web-btn');
+        const disenoBtn = document.getElementById('diseno-btn');
+        const webSection = document.getElementById('web-section');
+        const disenoSection = document.getElementById('diseno-section');
+
+        webBtn.addEventListener('click', function() {
+          webSection.classList.remove('d-none');
+          disenoSection.classList.add('d-none');
+          webBtn.classList.add('btn-success');
+          webBtn.classList.remove('btn-outline-success');
+          disenoBtn.classList.add('btn-outline-success');
+          disenoBtn.classList.remove('btn-success');
+        });
+
+        disenoBtn.addEventListener('click', function() {
+          disenoSection.classList.remove('d-none');
+          webSection.classList.add('d-none');
+          disenoBtn.classList.add('btn-success');
+          disenoBtn.classList.remove('btn-outline-success');
+          webBtn.classList.add('btn-outline-success');
+          webBtn.classList.remove('btn-success');
+        });
+      });
+    </script>
+    <!-- Validación Formulario -->
+    <script>
+      document.getElementById('contactForm').addEventListener('submit', function(event) {
+        let isValid = true;
+    
+        // Function to check if the input is only spaces
+        function isOnlySpaces(value) {
+          return !value.trim().length;
+        }
+    
+        // Get form elements
+        const name = document.getElementById('name');
+        const email = document.getElementById('email');
+        const message = document.getElementById('message');
+    
+        // Validate each field
+        if (isOnlySpaces(name.value)) {
+          name.classList.add('is-invalid');
+          isValid = false;
+        } else {
+          name.classList.remove('is-invalid');
+        }
+    
+        if (isOnlySpaces(email.value)) {
+          email.classList.add('is-invalid');
+          isValid = false;
+        } else {
+          email.classList.remove('is-invalid');
+        }
+    
+        if (isOnlySpaces(message.value)) {
+          message.classList.add('is-invalid');
+          isValid = false;
+        } else {
+          message.classList.remove('is-invalid');
+        }
+    
+        // If not valid, prevent form submission
+        if (!isValid) {
+          event.preventDefault();
+        }
+      });
+    </script>
+    <script>
+      const currentYear = new Date().getFullYear();
+      document.getElementById('currentYear').textContent = currentYear;
+    </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
