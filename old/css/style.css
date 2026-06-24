@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body {
+    background-image: url('../img/bg-001.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.bg-white-sp {
+    background-color: rgba(255, 255, 255, 0.93); /* 50% de opacidad */
+}
+.disponible {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    transition: font-size 0.3s ease;
+    font-size: 16px;
+}
+.disponible:hover {
+    font-size: 17px;
+}
+.txt-titulo{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+.txt-titulo-2{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+.txt-titulo-3{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+.txt-parrafo{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.txt-parrafo-1{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.txt-parrafo-2{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+.txt-parrafo-3{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+.txt-parrafo-4{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+.txt-cod{
+    font-size: 20px;
+}
+.linea-vertical {
+    list-style: none;
+    padding: 0;
+}
+.linea-vertical li {
+    position: relative;
+    padding-left: 50px; /* Espacio para el punto de lista */
+}
+.linea-vertical li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 3px; /* Ancho de la línea vertical */
+    background-color: gray; /* Color de la línea vertical */
+    margin-left: 6px; /* Ajusta la posición de la línea */
+}
+.linea-vertical #titulo-1::after {
+    content: '';
+    position: absolute;
+    left: 0px; /* Ajusta la posición del punto de lista */
+    width: 15px; /* Tamaño del punto de lista */
+    height: 15px; /* Tamaño del punto de lista */
+    background-color: black; /* Color del punto de lista */
+    border-radius: 50%; /* Forma circular del punto de lista */
+    top: 25%;
+    transform: translateY(-50%); /* Centra verticalmente el punto de lista */
+}
+.linea-vertical #titulo-2::after {
+    content: '';
+    position: absolute;
+    left: 0px; /* Ajusta la posición del punto de lista */
+    width: 15px; /* Tamaño del punto de lista */
+    height: 15px; /* Tamaño del punto de lista */
+    background-color: black; /* Color del punto de lista */
+    border-radius: 50%; /* Forma circular del punto de lista */
+    top: 8%;
+    transform: translateY(-50%); /* Centra verticalmente el punto de lista */
+}
+.custom-border {
+    padding: 10px; /* Espacio entre la imagen y el borde */
+    background-color: white; /* Color de fondo dentro del borde */
+    border-radius: 15px; /* Esquinas redondeadas del borde */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para darle un efecto de profundidad */
+}
+.icon{
+    width: 28%;
+}
+footer{
+    font-size: 15px;
+}
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #157347; 
+}
+  
+
+
+@media (max-width: 768px){
+    .txt-titulo{
+        font-size: 35px;
+    }
+    .txt-titulo-2{
+        font-size: 24px;
+    }
+    .linea-vertical #titulo-1::after{
+        top: 8%;
+    }
+    .linea-vertical #titulo-2::after{
+        top: 3%;
+    }
+    .txt-parrafo-1{
+        font-size: 16px;
+    }
+    .txt-titulo-3{
+        font-size: 20px;
+    }
+    #logos{
+        font-size: 15px;
+    }
+    .icon{
+        width: 46%;
+    }
+}
+.lista-puntos-alt p {
+  position: relative;
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.lista-puntos-alt p span::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #198754; /* mismo tono que text-success */
+  font-weight: bold;
+}
